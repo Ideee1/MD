@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;    
+}
+#tx{
+    margin:auto;
+    padding: 2px;
+    width: 30%;
+    isolation: isolate;
+
+}
+#bk{
+    position: relative;
+
+}
+#bk::before{
+    position: absolute;
+    background-image: url(gerbonis.jpg);
+    background-size: cover;
+    
+    content: '';
+    inset:0;
+    opacity: 0.1;
+}
+
+
+ul li a:link {
+    text-decoration: none;
+    
+}
+ul li{ 
+
+    list-style-type: none;
+}
+ul li a:hover{
+    text-decoration: underline;
+    
+}
+
+
+h1{
+    font-size: 32px;
+}
+h4{
+    font-size: 27px;
+}
+h6{
+    font-style: bold;
+}
+
